@@ -9,7 +9,6 @@ cluster = MongoClient("mongodb+srv://binim1010:Aa2015binim92@cluster0.8dzfq.mong
 db=cluster["currency"]
 collectionUSDILS = db["usd"]
 collectionUSDEUR=db["EUR"]
-# Where USD is the base currency you want to use
 
 url_usd_ils = 'https://v6.exchangerate-api.com/v6/cbf2fd927138d10551eccbf1/pair/USD/ILS'
 url_usd_eur='https://v6.exchangerate-api.com/v6/cbf2fd927138d10551eccbf1/pair/USD/EUR'
